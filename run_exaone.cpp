@@ -7,8 +7,8 @@
 
 int main() {
     // 모델 경로
-    // const char* model_path = "./models/EXAONE-Deep-2.4B-BF16.gguf";
-    const char* model_path = "./models/EXAONE-Deep-2.4B-Q8_0.gguf";
+    // const char* model_path = "./models/EXAONE-4.0-1.2B-BF16.gguf";
+    const char* model_path = "./models/EXAONE-4.0-1.2B-Q4_K_M.gguf";
     int n_predict = 512;
 
     // 프롬프트를 코드에 하드코딩
